@@ -10,7 +10,16 @@
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>4.33.0</version>
-</dependency>
-	  
+    </dependency>
+
+    <!-- TestNG for testing -->
+    <dependency>
+		
+		
+		 <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.9.0</version>
+		
+	</dependency>
   </dependencies>
 </project>
