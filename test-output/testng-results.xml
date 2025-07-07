@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-07T13:25:46 IST" name="Suite100" finished-at="2025-07-07T13:26:04 IST" duration-ms="18280">
+    <groups>
+    </groups>
+    <test started-at="2025-07-07T13:25:46 IST" name="Cross Browser Testing" finished-at="2025-07-07T13:26:04 IST" duration-ms="18280">
+      <class name="Docker.DockerwithChrome">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Docker.DockerwithChrome@5d0bf09b]" started-at="2025-07-07T13:25:46 IST" name="setup" finished-at="2025-07-07T13:25:48 IST" duration-ms="2183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runchrome()[pri:0, instance:Docker.DockerwithChrome@5d0bf09b]" started-at="2025-07-07T13:25:48 IST" name="runchrome" finished-at="2025-07-07T13:26:00 IST" duration-ms="11702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runchrome -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Docker.DockerwithChrome@5d0bf09b]" started-at="2025-07-07T13:26:00 IST" name="teardown" finished-at="2025-07-07T13:26:01 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Docker.DockerwithChrome -->
+      <class name="Docker.DockerwithEdge">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Docker.DockerwithEdge@117159c0]" started-at="2025-07-07T13:25:46 IST" name="setup" finished-at="2025-07-07T13:25:49 IST" duration-ms="3172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runEdge()[pri:0, instance:Docker.DockerwithEdge@117159c0]" started-at="2025-07-07T13:25:49 IST" name="runEdge" finished-at="2025-07-07T13:26:00 IST" duration-ms="11281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEdge -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Docker.DockerwithEdge@117159c0]" started-at="2025-07-07T13:26:00 IST" name="teardown" finished-at="2025-07-07T13:26:01 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Docker.DockerwithEdge -->
+      <class name="Docker.DockerwithFirefox">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Docker.DockerwithFirefox@3e27ba32]" started-at="2025-07-07T13:25:46 IST" name="setup" finished-at="2025-07-07T13:25:57 IST" duration-ms="10910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runfirefox()[pri:0, instance:Docker.DockerwithFirefox@3e27ba32]" started-at="2025-07-07T13:25:57 IST" name="runfirefox" finished-at="2025-07-07T13:26:02 IST" duration-ms="4921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runfirefox -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Docker.DockerwithFirefox@3e27ba32]" started-at="2025-07-07T13:26:02 IST" name="teardown" finished-at="2025-07-07T13:26:04 IST" duration-ms="2394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Docker.DockerwithFirefox -->
+    </test> <!-- Cross Browser Testing -->
+  </suite> <!-- Suite100 -->
+</testng-results>

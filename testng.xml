@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite100" parallel="classes"  thread-count="3">
+  <test name="Cross Browser Testing">
+    <classes>
+      <class name="Docker.DockerwithChrome"/>
+      <class name="Docker.DockerwithEdge"/>
+      <class name="Docker.DockerwithFirefox"/>
+    </classes>
+  </test> 
+</suite> 
